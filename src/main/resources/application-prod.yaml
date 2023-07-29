@@ -1,0 +1,4 @@
+elastic:
+  username: elastic
+  password: "password"
+  hostAndPort: "ip:9200"
