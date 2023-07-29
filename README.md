@@ -18,7 +18,7 @@ docker cp es01:/usr/share/elasticsearch/config/certs/http_ca.crt .
 修改[application-dev.yaml](src%2Fmain%2Fresources%2Fapplication-dev.yaml)文件，并且启动的时候带上active profile
 
 顺利的话你就能看到ES中被插入了两条数据
-
+![](https://runnable.oss-cn-guangzhou.aliyuncs.com/blog/2023-07-29-134402.png)
 以下是英文版
 
 ## 1. Project Introduction
@@ -41,7 +41,7 @@ docker cp es01:/usr/share/elasticsearch/config/certs/http_ca.crt .
 Modify the `application-*.yaml` file and start the application with the active profile.
 
 If everything goes smoothly, you should see two data entries inserted into Elasticsearch.
-
+![](https://runnable.oss-cn-guangzhou.aliyuncs.com/blog/2023-07-29-134402.png)
 
 
 
